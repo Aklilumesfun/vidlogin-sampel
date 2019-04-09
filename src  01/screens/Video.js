@@ -5,7 +5,7 @@ export default class Video extends Component {
 render(){
 return(
 <View style={styles.container}>
-      <Video source={{uri: "https://www.youtube.com/watch?v=6LzuIch-wQo&list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd"}}   // Can be a URL or a localfile.
+      <Video source={{uri: "https://www.youtube.com/watch?v=6LzuIch-wQo&list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd.mp4"}}   // Can be a URL or a localfile.
        ref={(ref) => {
          this.player = ref
        }}                                      // Store reference
@@ -24,5 +24,6 @@ styles = StyleSheet.create({
     left: 0,
     bottom: 0,
     right: 0,
+  
   },
 });
